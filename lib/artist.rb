@@ -24,5 +24,6 @@ class Artist
       return @@all.find{|artist| artist.name == name}
     else
       return self.new(name)
+    end
   end
 end
