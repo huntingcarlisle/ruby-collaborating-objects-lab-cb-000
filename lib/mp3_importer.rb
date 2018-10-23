@@ -7,7 +7,7 @@ class MP3Importer
   
   def files
     @files = Dir.glob("../spec/fixtures/mp3s/*.jpg")
-    puts files
+    
   end
   
   def import
