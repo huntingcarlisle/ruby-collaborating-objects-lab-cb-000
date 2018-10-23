@@ -11,7 +11,7 @@ class Song
     new_artist = Artist.find_or_create_by_name(artist)
     new_song = self.new(song)
     new_artist.add_song(new_song)
-    
+    return new_song
   end
   
 end
