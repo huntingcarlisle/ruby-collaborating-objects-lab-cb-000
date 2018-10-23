@@ -26,4 +26,9 @@ class Artist
       return self.new(name)
     end
   end
+  
+  def print_songs
+    puts @songs
+  end
+  
 end
