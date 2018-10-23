@@ -9,8 +9,8 @@ class Song
     artist = filename.split(" - ")[0]
     song = filename.split(" - ")[1]
     genre = filename.split(" - ")[2].split(".")[0]
-    new_song = 
-    artist = artist
+    new_song = self.new(song)
+    new_song.artist = artist
   end
   
 end
